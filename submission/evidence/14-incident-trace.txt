@@ -1,0 +1,7 @@
+Incident Trace Evidence:
+Correlation ID: req-544a6be3
+Session ID: k4-l3b-challenge-s03
+Root Span: lab-agent-run (total latency: 4.157s)
+  ├── Span 1: retrieval (type: RETRIEVER, latency: 2.500s) -> [SLOW SPAN / ROOT CAUSE]
+  └── Span 2: generation (type: GENERATION, latency: 0.151s) -> [NORMAL]
+Conclusion: retrieval span delay caused 60%+ of total latency.

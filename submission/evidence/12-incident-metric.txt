@@ -1,0 +1,7 @@
+Incident Metric Evidence:
+Challenge ID: day13-k4-l3b-monitoring-llmops-v1
+Affected Feature: monitoring
+Latency Threshold: 2000 ms
+Observed Tail Latency: 4157 ms
+Baseline Latency: ~390 ms
+Status: SLI Violation (Latency P95/P99 > 3000ms threshold)
